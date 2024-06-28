@@ -1,0 +1,19 @@
+{
+  "name": "puhelinluettelo-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilukka/puhelinluettelo_backend.git"
+  },
+  "author": "Ilkka Liikanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilukka/puhelinluettelo_backend/issues"
+  },
+  "homepage": "https://github.com/Ilukka/puhelinluettelo_backend#readme"
+}
