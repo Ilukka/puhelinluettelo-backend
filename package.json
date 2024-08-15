@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ilukka/puhelinluettelo_backend.git"
+    "url": "git+https://github.com/Ilukka/puhelinluettelo-backend.git"
   },
   "author": "Ilkka Liikanen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ilukka/puhelinluettelo_backend/issues"
+    "url": "https://github.com/Ilukka/puhelinluettelo-backend/issues"
   },
-  "homepage": "https://github.com/Ilukka/puhelinluettelo_backend#readme"
+  "homepage": "https://github.com/Ilukka/puhelinluettelo-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
 }
